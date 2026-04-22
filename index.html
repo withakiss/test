@@ -261,7 +261,7 @@
                 <table class="form-table">
                     <tr>
                         <th>회계구분</th>
-                        <td><input type="text" value="일반회계" style="background-color: #f5f5f5;" readonly="readonly" /></td>
+                        <td><input type="text" value="기금회계" style="background-color: #f5f5f5;" /></td>
                         <th><span class="required">*</span>단위사업</th>
                         <td>
                             <input type="text" style="width: 75%;" value="시정홍보 및 소통 강화" /> 
@@ -284,7 +284,7 @@
                         <th><span class="required">*</span>사업명</th>
                         <td><input type="text" class="bg-yellow" value="2023년 시정 홍보 영상 제작" /></td>
                         <th>부서</th>
-                        <td>청소과</td>
+                        <td>공보관</td>
                     </tr>
                 </table>
             </div>
@@ -302,18 +302,18 @@
                     <th><span class="required">*</span>추진여부</th>
                     <td>
                         <select class="bg-yellow">
-                            <option value="추진" selected="selected">추진</option>
+                            <option value="추진">추진</option>
                             <option value="미추진">미추진</option>
-                            <option value="보류">보류</option>
+                            <option value="보류" selected="selected">보류</option>
                             <option value="폐지">폐지</option>
                         </select>
                     </td>
                     <th>비사업구분</th>
                     <td>
                         <select>
-                            <option value="일반사업" selected="selected">일반사업</option>
+                            <option value="일반사업">일반사업</option>
                             <option value="행사성사업">행사성사업</option>
-                            <option value="전산개발사업">전산개발사업</option>
+                            <option value="전산개발사업" selected="selected">전산개발사업</option>
                             <option value="연구용역사업">연구용역사업</option>
                         </select>
                     </td>
@@ -322,8 +322,8 @@
                     <th>신규/계속</th>
                     <td>
                         <select>
-                            <option value="신규" selected="selected">신규</option>
-                            <option value="계속">계속</option>
+                            <option value="신규">신규</option>
+                            <option value="계속" selected="selected">계속</option>
                         </select>
                     </td>
                     <th>계속비여부</th>
@@ -388,10 +388,10 @@
                     <td>
                         <select>
                             <option value="">선택</option>
-                            <option value="direct">직접수행</option>
+                            <option value="direct" selected="selected">직접수행</option>
                             <option value="sub1">자치단체자본보조</option>
                             <option value="sub2">자치단체경상보조</option>
-                            <option value="priv1" selected="selected">민간자본보조</option>
+                            <option value="priv1">민간자본보조</option>
                             <option value="priv2">민간경상보조</option>
                         </select>
                     </td>
